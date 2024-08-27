@@ -1,0 +1,11 @@
+.container{/*  background-color: lightgreen;  */border: 6px solid black; display: grid;
+/* grid-template-rows: 100px 100px 100px; */
+/* grid-template-rows: repeat(3, 100px); */
+grid-template-rows: 1fr 1fr 1fr ;
+/* grid-template-columns: 100px 1fr 1fr; */
+grid-template-columns: 100px minmax(100px, 3fr) 1fr;
+grid-gap: 10px;
+
+}
+
+.items{background-color: lightcoral;font-size: 20px;padding: 10px;margin: 10px;}
